@@ -1,0 +1,41 @@
+.Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.Footer a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.Link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  bottom: 10%;
+  left: 5%;
+  color: white;
+}
+
+.Creator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Creator p {
+  font-size: 13px;
+  font-family: monospace;
+  margin: 0px;
+}

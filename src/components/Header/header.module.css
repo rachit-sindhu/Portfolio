@@ -1,0 +1,35 @@
+.Container{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.Container ul{
+    display: flex;
+    color: white;
+    width: 45%;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+@media (max-width:780px) {
+    .Container ul{
+        display: none;
+    }
+
+    .Container{
+        height: 60px;
+    }
+    
+}

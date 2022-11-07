@@ -1,0 +1,17 @@
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.Info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8%;
+}
+
+.Photo{
+    width: 50%;
+}
